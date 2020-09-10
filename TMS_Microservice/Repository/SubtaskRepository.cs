@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TMS_Microservice.Data.Repository.IRepository;
+using TMS_Microservice.Repository.IRepository;
 using TMS_Microservice.Models;
+using TMS_Microservice.Data;
 
-namespace TMS_Microservice.Data.Repository
+namespace TMS_Microservice.Repository
 {
     public class SubtaskRepository : ISubtaskRepository
     {

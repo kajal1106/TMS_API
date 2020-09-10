@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using TMS_Microservice.Models;
 
-namespace TMS_Microservice.Data.Repository.IRepository
+namespace TMS_Microservice.Repository.IRepository
 {
-    interface ISubtaskRepository
+    public interface ISubtaskRepository
     {
         ICollection<Subtask> GetSubtasks();
         Subtask GetSubtask(int subtaskId);

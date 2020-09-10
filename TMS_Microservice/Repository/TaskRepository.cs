@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using TMS_Microservice.Data;
-using TMS_Microservice.Data.Repository.IRepository;
+using TMS_Microservice.Repository.IRepository;
 using TMS_Microservice.Models;
 
 namespace TMS_Microservice.Data.Repository
