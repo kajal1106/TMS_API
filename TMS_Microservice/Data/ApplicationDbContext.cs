@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using TMS_Microservice.Model;
+using TMS_Microservice.Models;
 
 namespace TMS_Microservice.Data
 {

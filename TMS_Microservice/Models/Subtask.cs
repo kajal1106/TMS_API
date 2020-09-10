@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.Serialization;
 
 
-namespace TMS_Microservice.Model
+namespace TMS_Microservice.Models
 {
     public class Subtask
     {

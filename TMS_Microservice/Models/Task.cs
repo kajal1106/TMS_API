@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TMS_Microservice.Model
+namespace TMS_Microservice.Models
 {
     public class Task
     {

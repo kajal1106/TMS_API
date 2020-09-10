@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using TMS_Microservice.Model;
+using TMS_Microservice.Models;
 
 namespace TMS_Microservice.Data.Repository.IRepository
 {
