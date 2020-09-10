@@ -24,11 +24,21 @@ namespace TMS_Microservice.Repository
             return Save();
         }
 
-        public bool DeleteSubtask(Subtask subtask)
+        public bool DeleteSubtask(int id)
         {
-            _db.Subtasks.Remove(subtask);
-            return Save();
-        }
+            Subtask subtask = GetSubtask(id);
+            if (subtask == null)
+            {
+                return Save();
+            }
+            else
+            {
+                _db.Remove(subtask);
+                return Save();
+            }
+            }
+
+        
 
         public Subtask GetSubtask(int subtaskId)
         {
@@ -50,5 +60,6 @@ namespace TMS_Microservice.Repository
             _db.Subtasks.Update(subtask);
             return Save();
         }
+
     }
 }

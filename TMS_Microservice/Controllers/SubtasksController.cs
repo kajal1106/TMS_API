@@ -59,14 +59,32 @@ namespace TMS_Microservice.Controllers
 
         // PUT: api/Subtasks/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put(int id, [FromBody] Subtask subtask)
         {
+            if (subtask == null)
+            {
+                return BadRequest(ModelState);
+            }
+
+            if (!_subtaskRepo.UpdateSubtask(subtask))
+            {
+                return StatusCode(500);
+            }
+
+            return Ok();
+
         }
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            var obj = _subtaskRepo.DeleteSubtask(id);
+            if (!obj)
+            {
+                return NotFound();
+            }
+            return Ok(obj);
         }
     }
 }

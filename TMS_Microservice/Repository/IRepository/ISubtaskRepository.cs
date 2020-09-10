@@ -12,7 +12,7 @@ namespace TMS_Microservice.Repository.IRepository
         Subtask GetSubtask(int subtaskId);
         bool CreateSubtask(Subtask subtask);
         bool UpdateSubtask(Subtask subtask);
-        bool DeleteSubtask(Subtask subtask);
+        bool DeleteSubtask(int id);
         bool Save();
     }
 }
