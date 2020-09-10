@@ -22,10 +22,18 @@ namespace TMS_Microservice.Data.Repository
             return Save();
         }
 
-        public bool DeleteTask(Task task)
+        public bool DeleteTask(int id)
         {
-            _db.Remove(task);
-            return Save();
+            Task task = GetTask(id);
+            if (task == null)
+            {
+                return Save();
+            }
+            else
+            {
+                _db.Remove(task);
+                return Save();
+            }
         }
 
         public ICollection<Task> GetTasks()

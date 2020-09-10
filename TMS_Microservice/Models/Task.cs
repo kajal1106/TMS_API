@@ -17,5 +17,15 @@ namespace TMS_Microservice.Models
         public string State { get; set; }
         public DateTime Start_date { get; set; }
         public DateTime Finish_date { get; set; }
+
+        internal void GetTasks(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void GetTask(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

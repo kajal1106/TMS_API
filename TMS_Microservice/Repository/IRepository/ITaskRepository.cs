@@ -11,7 +11,7 @@ namespace TMS_Microservice.Repository.IRepository
         Task GetTask(int taskId);
         bool CreateTask(Task task);
         bool UpdateTask(Task task);
-        bool DeleteTask(Task task);
+        bool DeleteTask(int Id);
         bool Save();
     }
 }
