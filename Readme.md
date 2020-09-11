@@ -2,22 +2,14 @@
 
   ### Software Challenge Test
 
-  <p align="center">
-    An awesome README template to jumpstart into the projects!
-    <br />
-</p>
-
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
   * [Installation](#installation)
-* [Usage](#usage)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 
 <!-- ABOUT THE PROJECT -->
