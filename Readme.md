@@ -1,14 +1,9 @@
-<!--### Software Challenge
-
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
-[![MIT License][license-shield]][https://en.wikipedia.org/wiki/MIT_LICENSE]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/kajal1106/] -->
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/kajal1106>
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    https://github.com/kajal1106/TMS_API/blob/master/TMS_Microservice/images/logo.png
   </a>
 
   <h3 align="center">Software Challenge Test</h3>
