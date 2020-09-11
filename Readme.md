@@ -1,15 +1,10 @@
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-    ![Test Image 3](https://github.com/kajal1106/TMS_API/blob/master/TMS_Microservice/images/logo.png)
 
-  <h3 align="center">Software Challenge Test</h3>
+  ###Software Challenge Test
 
   <p align="center">
     An awesome README template to jumpstart into the projects!
     <br />
-</p>
 </p>
 
 
