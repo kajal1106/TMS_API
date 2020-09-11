@@ -2,9 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/kajal1106>
     ![Test Image 3](https://github.com/kajal1106/TMS_API/blob/master/TMS_Microservice/images/logo.png)
-  </a>
 
   <h3 align="center">Software Challenge Test</h3>
 
