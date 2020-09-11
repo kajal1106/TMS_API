@@ -1,8 +1,8 @@
-<!--### Software Challenge
+### Software Challenge
 
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 [![MIT License][license-shield]][https://en.wikipedia.org/wiki/MIT_LICENSE]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/kajal1106/] -->
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/kajal1106/]
 
 <!-- PROJECT LOGO -->
 <br />

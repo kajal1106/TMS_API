@@ -15,6 +15,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{04C39782-1417-4FD7-A1B9-E334AE396A82}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\Downloads\Best-README-Template-master\Best-README-Template-master\images\logo.png = ..\..\..\Downloads\Best-README-Template-master\Best-README-Template-master\images\logo.png
+		Readme.md = Readme.md
 		..\..\..\Desktop\screenshot.png = ..\..\..\Desktop\screenshot.png
 	EndProjectSection
 EndProject
