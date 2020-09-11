@@ -15,7 +15,6 @@
   * [Built With](#built-with)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -56,4 +55,18 @@ dotnet build
 dotnet run
 ```
 5. Launch http://localhost:5000/ in your browser to view the Web UI.
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. [![MIT License]](https://en.wikipedia.org/wiki/MIT_LICENSE)
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [Kajal Singh](https://www.linkedin.com/in/kajal1106) - singh.kajal940@gmail.com
+
+Project Link: [https://github.com/kajal1106/TMS_API](https://github.com/kajal1106/TMS_API)
+
 
