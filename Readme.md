@@ -35,13 +35,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-<img
-src=“images/screenshot.png”
-raw=true
-alt=“Subject Pronouns”
-style=“margin-right: 10px;”
-/>
+![Test Image 4](https://github.com/kajal1106/TMS_API/blob/master/TMS_Microservice/images/screenshot.png)
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
