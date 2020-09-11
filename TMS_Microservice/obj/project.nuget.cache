@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QfCEtlSNLkeyB3CDq3gBotKnI5EKUnIn/WqFV5jtQWG0ktr/wcIQhd58tXkzTw9QgkE/3J4mClzUSVq3uZ+TUQ==",
+  "dgSpecHash": "FBjpwQpYKmb3vY3vlhWEOoA6n/XMfP+KHCRqD8WMCD2u/al5Nu0Ywnk1aBvYrgklqdRdOoofWIzzdx/c+jq5uA==",
   "success": true,
   "projectFilePath": "C:\\Users\\singh\\source\\repos\\TMS_Microservice\\TMS_Microservice\\TMS_Microservice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\singh\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\singh\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
+    "C:\\Users\\singh\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
@@ -76,6 +78,7 @@
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\singh\\.nuget\\packages\\microsoft.testplatform\\16.7.1\\microsoft.testplatform.16.7.1.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.4\\microsoft.visualstudio.web.codegeneration.3.1.4.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.4\\microsoft.visualstudio.web.codegeneration.contracts.3.1.4.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.4\\microsoft.visualstudio.web.codegeneration.core.3.1.4.nupkg.sha512",
@@ -207,5 +210,16 @@
     "C:\\Users\\singh\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
