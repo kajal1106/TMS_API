@@ -36,7 +36,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](/screenshot.png)
+[![Product Name Screen Shot][product-screenshot]](/images/screenshot.png)
 
 
 ### Built With
