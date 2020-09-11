@@ -23,10 +23,12 @@ namespace TMS_Microservice.Controllers
             _taskRepo = taskRepository;
         }
 
-        /// <summary>
-        /// Get a list of all the subtasks
-        /// </summary>
-        /// <returns></returns>
+        
+            //<summary>
+            //Get a list of all the subtasks
+            //</summary>
+            //<returns></returns>
+
         // GET: api/Subtasks
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(List<Subtask>))]
@@ -36,13 +38,14 @@ namespace TMS_Microservice.Controllers
             return Ok(objList);
         }
 
-        /// <summary>
-        /// Get individual subtask
-        /// </summary>
-        /// <param name="subtaskId">The Id of the subtask</param>
-        /// <returns></returns>
+            /// <summary>
+            ///  Get individual subtask
+            /// </summary>
+            /// <param name = "subtaskId" > The Id of the subtask</param>
+            /// <returns></returns>
+
         // GET: api/Subtasks/5
-        [HttpGet("{subtaskId:int}", Name = "GetSubtask")]
+            [HttpGet("{subtaskId:int}", Name = "GetSubtask")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Subtask))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesDefaultResponseType]

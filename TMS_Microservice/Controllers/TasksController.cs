@@ -29,9 +29,9 @@ namespace TMS_Microservice.Controllers
         /// <summary>
         /// Get list of all the tasks
         /// </summary>
-        /// <returns></returns>
-        // GET: api/Tasks
-        [HttpGet]
+           ///  <returns></returns>
+
+    [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(List<Task>))]
         public IActionResult GetTasks()
         {
@@ -43,10 +43,11 @@ namespace TMS_Microservice.Controllers
         /// <summary>
         /// Get individual task
         /// </summary>
-        /// <param name="taskId">The Id of the task</param>
-        /// <returns></returns>
+        /// <param name = "taskId" > The Id of the task</param>
+            /// <returns></returns>
+
         // GET: api/Tasks/5
-        [HttpGet("{taskId:int}", Name ="GetTask")]
+            [HttpGet("{taskId:int}", Name ="GetTask")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Task))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesDefaultResponseType]

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TMS_Microservice</name>
+    </assembly>
+    <members>
+        <member name="M:TMS_Microservice.Controllers.SubtasksController.GetSubtask(System.Int32)">
+            <summary>
+             Get individual subtask
+            </summary>
+            <param name = "subtaskId" > The Id of the subtask</param>
+            <returns></returns>
+        </member>
+        <member name="M:TMS_Microservice.Controllers.TasksController.GetTasks">
+            <summary>
+            Get list of all the tasks
+            </summary>
+             <returns></returns>
+        </member>
+        <member name="M:TMS_Microservice.Controllers.TasksController.GetTask(System.Int32)">
+            <summary>
+            Get individual task
+            </summary>
+            <param name = "taskId" > The Id of the task</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
