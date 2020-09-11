@@ -59,7 +59,8 @@ dotnet run
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. [MIT License](https://en.wikipedia.org/wiki/MIT_LICENSE)
+* Distributed under the MIT License. [MIT License](https://en.wikipedia.org/wiki/MIT_LICENSE)
+* [Swagger API](https://swagger.io/)
 
 
 <!-- CONTACT -->
