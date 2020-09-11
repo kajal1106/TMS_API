@@ -41,6 +41,12 @@ namespace TMS_Microservice.Data.Repository
             return _db.Tasks.OrderBy(a => a.Id).ToList();
         }
 
+        public ICollection<Task> GetTasksDate(DateTime date)
+        {
+            return _db.Tasks.Where(a => a.Start_date == date && a.State == "inProgress").ToList();
+        }
+
+
         public Task GetTask(int taskId)
         {
             return _db.Tasks.FirstOrDefault(a => a.Id == taskId);
@@ -55,6 +61,11 @@ namespace TMS_Microservice.Data.Repository
         {
             _db.Tasks.Update(task);
             return Save();
+        }
+
+        public bool TaskExists(int taskId)
+        {
+            return _db.Tasks.Any(a => a.Id == taskId);
         }
     }
 }

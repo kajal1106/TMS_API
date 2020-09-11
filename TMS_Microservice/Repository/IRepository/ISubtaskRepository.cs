@@ -10,9 +10,11 @@ namespace TMS_Microservice.Repository.IRepository
     {
         ICollection<Subtask> GetSubtasks();
         Subtask GetSubtask(int subtaskId);
+        ICollection<Subtask> GetSubtasksByTaskID(int taskid);
+        bool SubtaskExists(int subtaskId);
         bool CreateSubtask(Subtask subtask);
         bool UpdateSubtask(Subtask subtask);
-        bool DeleteSubtask(int id);
+        bool DeleteSubtask(int subtaskId);
         bool Save();
     }
 }
