@@ -60,6 +60,10 @@ namespace TMS_Microservice.Controllers
             }
             return Ok(obj);
         }
+        /// <summary>
+        /// Add Tasks
+        /// </summary>
+        ///  <returns></returns>
 
         // POST: api/Tasks
         [HttpPost]
@@ -80,6 +84,10 @@ namespace TMS_Microservice.Controllers
 
             return CreatedAtRoute("GetTask", new { taskId = task.Id }, task);
         }
+        /// <summary>
+        /// Generate CSV File
+        /// </summary>
+        ///  <returns></returns>
 
         [HttpGet("csvfile/{date:datetime}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Task))]
@@ -117,6 +125,11 @@ namespace TMS_Microservice.Controllers
             //return Content(sb.ToString());
             //return Ok(obj); */
         }
+
+        /// <summary>
+        /// Update Tasks using ID
+        /// </summary>
+        ///  <returns></returns>
 
         // PUT: api/Tasks/5
         [HttpPut("{taskId:int}")]
@@ -174,6 +187,11 @@ namespace TMS_Microservice.Controllers
             }
             return NoContent();
         }
+
+        /// <summary>
+        /// Delete Tasks Using ID
+        /// </summary>
+        ///  <returns></returns>
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{taskId:int}")]

@@ -4,12 +4,42 @@
         <name>TMS_Microservice</name>
     </assembly>
     <members>
+        <member name="M:TMS_Microservice.Controllers.SubtasksController.GetSubtasks">
+            <summary>
+            Get a list of all the subtasks
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:TMS_Microservice.Controllers.SubtasksController.GetSubtask(System.Int32)">
             <summary>
              Get individual subtask
             </summary>
             <param name = "subtaskId" > The Id of the subtask</param>
             <returns></returns>
+        </member>
+        <member name="M:TMS_Microservice.Controllers.SubtasksController.GetSubtasksbytaskid(System.Int32)">
+            <summary>
+            Get a list of all the subtasks using specific Task ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TMS_Microservice.Controllers.SubtasksController.CreateSubtask(TMS_Microservice.Models.Subtask)">
+            <summary>
+            Add Subtasks
+            </summary>
+             <returns></returns>
+        </member>
+        <member name="M:TMS_Microservice.Controllers.SubtasksController.Put(System.Int32,TMS_Microservice.Models.Subtask)">
+            <summary>
+            Update Subtasks using ID
+            </summary>
+             <returns></returns>
+        </member>
+        <member name="M:TMS_Microservice.Controllers.SubtasksController.Delete(System.Int32)">
+            <summary>
+            Delete Substasks Using ID
+            </summary>
+             <returns></returns>
         </member>
         <member name="M:TMS_Microservice.Controllers.TasksController.GetTasks">
             <summary>
@@ -23,6 +53,30 @@
             </summary>
             <param name = "taskId" > The Id of the task</param>
             <returns></returns>
+        </member>
+        <member name="M:TMS_Microservice.Controllers.TasksController.CreateTask(TMS_Microservice.Models.Task)">
+            <summary>
+            Add Tasks
+            </summary>
+             <returns></returns>
+        </member>
+        <member name="M:TMS_Microservice.Controllers.TasksController.GetTasksByDate(System.DateTime)">
+            <summary>
+            Generate CSV File
+            </summary>
+             <returns></returns>
+        </member>
+        <member name="M:TMS_Microservice.Controllers.TasksController.Put(System.Int32,TMS_Microservice.Models.Task)">
+            <summary>
+            Update Tasks using ID
+            </summary>
+             <returns></returns>
+        </member>
+        <member name="M:TMS_Microservice.Controllers.TasksController.Delete(System.Int32)">
+            <summary>
+            Delete Tasks Using ID
+            </summary>
+             <returns></returns>
         </member>
     </members>
 </doc>

@@ -24,10 +24,10 @@ namespace TMS_Microservice.Controllers
         }
 
         
-            //<summary>
-            //Get a list of all the subtasks
-            //</summary>
-            //<returns></returns>
+            /// <summary>
+            /// Get a list of all the subtasks
+            /// </summary>
+            /// <returns></returns>
 
         // GET: api/Subtasks
         [HttpGet]
@@ -59,6 +59,10 @@ namespace TMS_Microservice.Controllers
             return Ok(obj);
         }
 
+        /// <summary>
+        /// Get a list of all the subtasks using specific Task ID
+        /// </summary>
+        /// <returns></returns>
         // [Route("taskid/")]
         [HttpGet("taskid/{taskid:int}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Subtask))]
@@ -73,6 +77,11 @@ namespace TMS_Microservice.Controllers
             }
             return Ok(obj);
         }
+
+        /// <summary>
+        /// Add Subtasks
+        /// </summary>
+        ///  <returns></returns>
 
         // POST: api/Subtasks
         [HttpPost]
@@ -95,6 +104,11 @@ namespace TMS_Microservice.Controllers
             return CreatedAtRoute("GetSubtask", new { subtaskId = subtask.Id }, subtask);
         }
 
+        /// <summary>
+        /// Update Subtasks using ID
+        /// </summary>
+        ///  <returns></returns>
+
         // PUT: api/Subtasks/5
         [HttpPut("{subtaskId:int}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
@@ -116,6 +130,11 @@ namespace TMS_Microservice.Controllers
             return Ok();
 
         }
+
+        /// <summary>
+        /// Delete Substasks Using ID
+        /// </summary>
+        ///  <returns></returns>
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{subtaskId:int}")]

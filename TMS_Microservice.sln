@@ -7,18 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMS_Microservice", "TMS_Mic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS_Microservice-Tests", "TMS_Microservice-Tests\TMS_Microservice-Tests.csproj", "{86E11994-60C5-4C10-8D1E-9912B1923787}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A0035AB-CAC3-489D-AE61-58C575D701F6}"
-	ProjectSection(SolutionItems) = preProject
-		Readme.md = Readme.md
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{04C39782-1417-4FD7-A1B9-E334AE396A82}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Downloads\Best-README-Template-master\Best-README-Template-master\images\logo.png = ..\..\..\Downloads\Best-README-Template-master\Best-README-Template-master\images\logo.png
-		Readme.md = Readme.md
-		..\..\..\Desktop\screenshot.png = ..\..\..\Desktop\screenshot.png
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,9 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{04C39782-1417-4FD7-A1B9-E334AE396A82} = {4A0035AB-CAC3-489D-AE61-58C575D701F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F05B85B-E5BC-4607-9B9F-C68656B2C38C}
