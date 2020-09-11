@@ -1,6 +1,6 @@
 
 
-  ###Software Challenge Test
+  ### Software Challenge Test
 
   <p align="center">
     An awesome README template to jumpstart into the projects!
