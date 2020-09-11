@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using TMS_Microservice.Models;
 using TMS_Microservice.Repository.IRepository;
 
@@ -78,6 +80,42 @@ namespace TMS_Microservice.Controllers
             return CreatedAtRoute("GetTask", new { taskId = task.Id }, task);
         }
 
+        [HttpGet("csvfile/{date:datetime}")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Task))]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesDefaultResponseType]
+        public IActionResult GetTasksByDate(DateTime date)
+        {
+            var obj = _taskRepo.GetTasksDate(date);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                var sb = new StringBuilder();
+
+                sb.Append("Id,Name,Description,State,Start_Date,Finish_date\r\n");
+                foreach (Task tasks in obj)
+                {
+                    sb.AppendFormat("\"{0}\",", tasks.Id);
+                    sb.AppendFormat("\"{0}\",", tasks.Name);
+                    sb.AppendFormat("\"{0}\",", tasks.Description);
+                    sb.AppendFormat("\"{0}\",", tasks.State);
+                    sb.AppendFormat("\"{0}\",", tasks.Start_date.ToShortDateString());
+                    sb.AppendFormat("\"{0}\"\r\n", tasks.Finish_date.ToShortDateString());
+                    //no comma for the last item, but a new line
+                }
+                return File(Encoding.UTF8.GetBytes(sb.ToString()), "text/csv", "Report.csv");
+            }
+            /*if (obj == null)
+            {
+                return NotFound();
+            }*/
+
+            //return Content(sb.ToString());
+            //return Ok(obj); */
+        }
 
         // PUT: api/Tasks/5
         [HttpPut("{taskId:int}")]
